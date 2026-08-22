@@ -1,0 +1,83 @@
+:root {
+  --bg: #0a0e1a;
+  --panel: #10162a;
+  --border: #2a3350;
+  --gold: #d4af37;
+  --gold-soft: #e8c766;
+  --text: #eef0f6;
+  --text-dim: #9aa3bd;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+}
+
+.wrap {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 64px 24px 80px;
+}
+.wrap.wide { max-width: 680px; }
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.brand .icon {
+  width: 44px; height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px;
+}
+.brand h1 { font-size: 22px; margin: 0; font-weight: 600; }
+
+.tagline { color: var(--text-dim); margin: 0 0 40px; font-size: 15px; }
+.meta { color: var(--text-dim); margin: 0 0 40px; font-size: 14px; }
+
+h2 {
+  font-size: 18px;
+  color: var(--gold-soft);
+  margin: 40px 0 12px;
+  font-weight: 600;
+}
+
+p, li { color: var(--text); font-size: 15px; }
+ul { padding-left: 20px; margin: 8px 0; }
+li { margin-bottom: 6px; }
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px 24px;
+  margin-top: 12px;
+}
+
+a { color: var(--gold-soft); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.faq-item { margin-bottom: 20px; }
+.faq-item:last-child { margin-bottom: 0; }
+.faq-q { font-weight: 600; margin: 0 0 4px; color: var(--text); }
+.faq-a { margin: 0; color: var(--text-dim); font-size: 14.5px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 0; border-bottom: 1px solid var(--border); }
+th { color: var(--text-dim); font-weight: 500; }
+
+footer {
+  margin-top: 56px;
+  padding-top: 20px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 13px;
+}

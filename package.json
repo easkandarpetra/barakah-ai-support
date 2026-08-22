@@ -1,0 +1,11 @@
+{
+  "name": "barakah-ai-support",
+  "private": true,
+  "description": "Support and Privacy Policy pages for Barakah AI, hosted on GitHub Pages.",
+  "scripts": {
+    "dev": "serve -l 8765 ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
