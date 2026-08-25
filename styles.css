@@ -34,9 +34,8 @@ body {
 .brand .icon {
   width: 44px; height: 44px;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--gold-soft), var(--gold));
-  display: flex; align-items: center; justify-content: center;
-  font-size: 22px;
+  object-fit: cover;
+  display: block;
 }
 .brand h1 { font-size: 22px; margin: 0; font-weight: 600; }
 
