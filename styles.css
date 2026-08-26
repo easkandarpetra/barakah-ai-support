@@ -29,7 +29,7 @@ body {
   position: absolute;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23d4a853' stroke-width='2.2' stroke-linejoin='round'%3E%3Cpolygon points='100,10 190,100 100,190 10,100'/%3E%3Cpolygon points='163.6,36.4 163.6,163.6 36.4,163.6 36.4,36.4'/%3E%3Cpolygon points='100,30 117.2,58.4 149.5,50.5 141.6,82.8 170,100 141.6,117.2 149.5,149.5 117.2,141.6 100,170 82.8,141.6 50.5,149.5 58.4,117.2 30,100 58.4,82.8 50.5,50.5 82.8,58.4'/%3E%3C/g%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cg fill='none' stroke='%23d4a853' stroke-width='2' stroke-linejoin='round'%3E%3Cpolygon points='100,10 190,100 100,190 10,100'/%3E%3Cpolygon points='163.6,36.4 163.6,163.6 36.4,163.6 36.4,36.4'/%3E%3Cpolygon points='100,29.8 118.9,54.3 149.6,50.4 145.7,81.1 170.2,100 145.7,118.9 149.6,149.6 118.9,145.7 100,170.2 81.1,145.7 50.4,149.6 54.3,118.9 29.8,100 54.3,81.1 50.4,50.4 81.1,54.3'/%3E%3Cpolygon points='118.9,54.3 122.3,77.7 145.7,81.1 131.5,100 145.7,118.9 122.3,122.3 118.9,145.7 100,131.5 81.1,145.7 77.7,122.3 54.3,118.9 68.5,100 54.3,81.1 77.7,77.7 81.1,54.3 100,68.5'/%3E%3Cpolygon points='100,71.2 106.2,85.0 120.4,79.6 115.0,93.8 128.8,100 115.0,106.2 120.4,120.4 106.2,115.0 100,128.8 93.8,115.0 79.6,120.4 85.0,106.2 71.2,100 85.0,93.8 79.6,79.6 93.8,85.0'/%3E%3C/g%3E%3C/svg%3E");
 }
 .geo-bg .star--tr { top: -60px; right: -60px; width: 280px; height: 280px; opacity: 0.16; }
 .geo-bg .star--bl { bottom: -50px; left: -60px; width: 240px; height: 240px; opacity: 0.13; }
