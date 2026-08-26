@@ -3,9 +3,11 @@
   "private": true,
   "description": "Support and Privacy Policy pages for Barakah AI, hosted on GitHub Pages.",
   "scripts": {
-    "dev": "serve -l 8765 ."
+    "dev": "serve -l 8765 .",
+    "dev:live": "live-server --port=8765 --no-css-inject"
   },
   "devDependencies": {
+    "live-server": "^1.2.2",
     "serve": "^14.2.4"
   }
 }
